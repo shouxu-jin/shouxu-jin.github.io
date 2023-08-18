@@ -6,7 +6,7 @@
 <meta http-equiv="Cache-Control" content="no-transform" />
 <meta http-equiv="Cache-Control" content="no-siteapp" />
 <meta content="always" name="referrer" />
-<meta name="renderer" content="webkit" /> 
+<meta name="renderer" content="webkit" />
 <meta name="author" content="Johnny Kun" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
     <title>Go跳转中请稍等...</title>
@@ -147,26 +147,8 @@
 </head>
 
 <body class="ie8" style="">
-    <div id="content">
-        <div class="wrap">
-            <div class="title">即将跳转到外部网站</div>
-            <div class="tips">安全性未知，是否继续</div>
-            <div class="content">
-                <div class="symbol"><img src="https://daohang.aizhancloud.cn/zb_users/theme/qingdh/style/img/unknown.png"></div>
-                <div title="http://www.11px.cn/" class="link">http://www.11px.cn/</div>
-            </div>
-            <div class="contact">
-                <a class="Jump" href="http://www.11px.cn/">继续前往</a>
-                <a id="close" onClick="closePage()">关闭页面</a>
-            </div>
-        </div>
-    </div>
     <script>
         function closePage() {
-            /* 设个定时器，如果页面未关闭，则跳转至首页 */
-            setTimeout(function() {
-                window.location.href = 'http://www.11px.cn/';
-            }, 3000);
             /* 通用窗口关闭 */
             window.opener = null;
             window.open('', '_self');
